@@ -1,8 +1,9 @@
 from slackbot.bot import Bot
-import led
+from led import LedService
 
 def main():
     bot = Bot()
+    led = LedService()
     led.run()
     bot.run()
 

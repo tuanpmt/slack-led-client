@@ -1,0 +1,28 @@
+{
+  "settings": {
+    "rows": 32,
+    "chain": 1,
+    "parallel": 1
+  },
+  "scenes": [
+    {
+      "scene": "default",
+      "repeat": 1,
+      "frames": [
+        {
+          "frame": "frame1",
+          "type": "text",
+          "content": "Hello world",
+          "repeat": 1,
+          "font": "ttf"
+        },
+        {
+          "frame": "frame2",
+          "type": "gif",
+          "content": "http://file.com/image.gif",
+          "repeat": 1
+        }
+      ]
+    }
+  ]
+}
